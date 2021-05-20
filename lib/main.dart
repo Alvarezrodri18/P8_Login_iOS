@@ -127,6 +127,18 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                           },
                         ),
                         RaisedButton(
+                          flexibleSpace: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Colors.pink[800],
+                Colors.pink[400],
+                Colors.pink[400],
+                Colors.pink[800],
+              ],
+            ),
+          ),
+        ),
                           child: Text(
                             'NEXT2',
                           ),
