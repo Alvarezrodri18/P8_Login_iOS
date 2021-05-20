@@ -96,7 +96,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
               ],
             ),
             if (!isAcceso)
-              {
+              
                 Column(children: <Widget>[
                   TextField(
                     decoration: InputDecoration(
@@ -107,7 +107,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   ),
                 ], //fin <Widget>[]
                     )//Fin columna
-              } //if verdadero
+               //if verdadero
             
           ], //Fin de widget[]
         ), //Fin ListView
