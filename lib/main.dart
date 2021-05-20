@@ -162,16 +162,34 @@ class _IngresoSistemaState extends State<IngresoSistema> {
             Center(
                 child: Column(
                   children: <Widget>[
-                    Text('YAY, I am login!'),
+                    Text('YAY, Estoy dentro!'),
                     RaisedButton(
-                      elevation: 20.0,
-                      child: Text('Logout'),
-                      onPressed: () {
+                    onPressed: () {
                         setState(() {
                           isAcceso = false;
                         });
                       },
-                    )//raisedButton
+                    textColor: Colors.white,
+                    padding: const EdgeInsets.all(0.0),
+                  child: Container(
+                    decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                    colors: <Color>[
+                      Color(0xFF0D47A1),
+                      Color(0xFF1976D2),
+                      Color(0xFF42A5F5),
+                ],
+              ),
+            ),
+            padding: const EdgeInsets.all(10.0),
+            elevation: 20.0,
+            child: const Text(
+              'Logout',
+              style: TextStyle(fontSize: 20)
+            ),
+          ),
+        ),//fin raised
+                    
                   ],//fin widget[]
                 ),//columna
               )//center
