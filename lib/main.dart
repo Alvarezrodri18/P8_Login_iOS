@@ -119,7 +119,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: <Widget>[
                         FlatButton(
-                          child: Text('CANCEL'),
+                          child: Text('CANCELAR'),
                           onPressed: () {
                             setState(() {
                               isAcceso = false;
@@ -127,14 +127,6 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                           },
                         ),
                         RaisedButton(
-                          child: Ink(
-      decoration: BoxDecoration(
-          gradient: LinearGradient(colors: [Color(0xff374ABE), Color(0xff64B6FF)],
-            begin: Alignment.centerLeft,
-            end: Alignment.centerRight,
-          ),
-          borderRadius: BorderRadius.circular(30.0)
-      ),),
                           child: Text(
                             'NEXT2',
                           ),
