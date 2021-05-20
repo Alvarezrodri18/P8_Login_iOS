@@ -127,30 +127,31 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                           },
                         ),
                         RaisedButton(
-                          
-                          child: Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: [
-                Colors.pink[800],
-                Colors.pink[400],
-                Colors.pink[400],
-                Colors.pink[800],
-              ],
-            ),
-          ),
-          
-          child: Text(
-                            'NEXT2',
-                          ),
-        ),
-                          
-                          onPressed: () {
+          onPressed: () {
                             setState(() {
                               isAcceso = true;
                             });
                           },
-                        ),
+          textColor: Colors.white,
+          padding: const EdgeInsets.all(0.0),
+          child: Container(
+            decoration: const BoxDecoration(
+              gradient: LinearGradient(
+                colors: <Color>[
+                  Color(0xFF0D47A1),
+                  Color(0xFF1976D2),
+                  Color(0xFF42A5F5),
+                ],
+              ),
+            ),
+            padding: const EdgeInsets.all(10.0),
+            child: const Text(
+              'NEXT2',
+              style: TextStyle(fontSize: 20)
+            ),
+          ),
+        ),//fin raised
+                        
                       ],//Fin <widget>[]
                     ),//Fin child
                   )//Fin de padding
