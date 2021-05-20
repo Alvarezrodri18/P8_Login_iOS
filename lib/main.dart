@@ -146,8 +146,8 @@ class _IngresoSistemaState extends State<IngresoSistema> {
             ),
             padding: const EdgeInsets.all(10.0),
             child: const Text(
-              'Iniciar',
-              style: TextStyle(fontSize: 20)
+              'Iniciar Sesion',
+              style: TextStyle(fontSize: 18)
             ),
           ),
         ),//fin raised
