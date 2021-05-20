@@ -137,7 +137,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
           child: Container(
             decoration: const BoxDecoration(
               gradient: LinearGradient(
-                colors: <Color>[
+                colors: [
                   Colors.pink[800],
                 Colors.pink[400],
                 Colors.pink[400],
