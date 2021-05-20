@@ -106,10 +106,9 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                     ),
                   ),
                 ], //fin <Widget>[]
-                    ), //Fin columna
+                    )//Fin columna
               } //if verdadero
-            else
-              {} //if false
+            
           ], //Fin de widget[]
         ), //Fin ListView
       ), //Fin SafeArea
