@@ -127,6 +127,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                           },
                         ),
                         RaisedButton(
+                          padding: const EdgeInsets.only(top: 18.0),
                           child: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
