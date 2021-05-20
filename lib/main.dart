@@ -127,7 +127,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                           },
                         ),
                         RaisedButton(
-                          padding: const EdgeInsets.only(top: 18.0),
+                          
                           child: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
@@ -139,7 +139,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
               ],
             ),
           ),
-          padding: const EdgeInsets.only(top: 18.0),
+          
           child: Text(
                             'NEXT2',
                           ),
@@ -157,7 +157,23 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 ], //fin <Widget>[]
                     )//Fin columna
                //}if verdadero
-            
+            else 
+            Center(
+                child: Column(
+                  children: <Widget>[
+                    Text('YAY, I am login!'),
+                    RaisedButton(
+                      elevation: 20.0,
+                      child: Text('Logout'),
+                      onPressed: () {
+                        setState(() {
+                          isLogin = false;
+                        });
+                      },
+                    )//raisedButton
+                  ],//fin widget[]
+                ),//columna
+              )//center
           ], //Fin de widget[]
         ), //Fin ListView
       ), //Fin SafeArea
