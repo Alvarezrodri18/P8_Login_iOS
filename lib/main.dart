@@ -134,7 +134,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
             end: Alignment.centerRight,
           ),
           borderRadius: BorderRadius.circular(30.0)
-      ),
+      ),),
                           child: Text(
                             'NEXT2',
                           ),
