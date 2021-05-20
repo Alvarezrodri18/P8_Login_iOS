@@ -72,12 +72,17 @@ class _IngresoSistemaState extends State<IngresoSistema> {
         ], //Fin Actions <widget> []
         title: Text('Inicia Sesión'),
         flexibleSpace: Container(
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [ Colors.pink[800], Colors.pink[400], Colors.pink[400], Colors.pink[800], ],
-                ),
-              ),
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Colors.pink[800],
+                Colors.pink[400],
+                Colors.pink[400],
+                Colors.pink[800],
+              ],
             ),
+          ),
+        ),
       ), //Fin AppBar
       body: SafeArea(
         child: ListView(
@@ -90,8 +95,21 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 SizedBox(height: 16.0),
               ],
             ),
-            if(!isAcceso)
-            Column()//Fin columna
+            if (!isAcceso)
+              {
+                Column(children: <Widget>[
+                  TextField(
+                    decoration: InputDecoration(
+                      filled: true,
+                      // fillColor: Colors.amber,
+                      labelText: 'Username',
+                    ),
+                  ),
+                ] //fin <Widget>[]
+                    ) //Fin columna
+              } //if verdadero
+            else
+              {} //if false
           ], //Fin de widget[]
         ), //Fin ListView
       ), //Fin SafeArea
