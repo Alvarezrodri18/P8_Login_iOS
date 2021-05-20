@@ -71,6 +71,13 @@ class _IngresoSistemaState extends State<IngresoSistema> {
           ),
         ], //Fin Actions <widget> []
         title: Text('Inicia Sesión'),
+        flexibleSpace: Container(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [Colors.red, Colors.white],
+                ),
+              ),
+            ),
       ), //Fin AppBar
       body: SafeArea(
         child: ListView(
