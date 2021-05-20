@@ -74,7 +74,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
         flexibleSpace: Container(
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [ Colors.pink[700], Colors.pink, Colors.pink[300]],
+                  colors: [ Colors.pink[700], Colors.pink[300], Colors.pink, ],
                 ),
               ),
             ),
@@ -90,6 +90,8 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 SizedBox(height: 16.0),
               ],
             ),
+            if(!isAcceso)
+            Column()//Fin columna
           ], //Fin de widget[]
         ), //Fin ListView
       ), //Fin SafeArea
