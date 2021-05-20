@@ -167,7 +167,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       child: Text('Logout'),
                       onPressed: () {
                         setState(() {
-                          isLogin = false;
+                          isAcceso = false;
                         });
                       },
                     )//raisedButton
