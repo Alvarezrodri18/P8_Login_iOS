@@ -146,7 +146,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
             ),
             padding: const EdgeInsets.all(10.0),
             child: const Text(
-              'NEXT2',
+              'Iniciar',
               style: TextStyle(fontSize: 20)
             ),
           ),
@@ -162,7 +162,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
             Center(
                 child: Column(
                   children: <Widget>[
-                    Text('YAY, Estoy dentro!'),
+                    Text('YAY, Estoy dentro!\n'),
                     RaisedButton(
                       elevation: 20.0,
                     onPressed: () {
