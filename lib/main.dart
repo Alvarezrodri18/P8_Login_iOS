@@ -133,7 +133,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                             });
                           },
           textColor: Colors.white,
-          
+          padding: const EdgeInsets.all(0.0),
           child: Container(
             decoration: const BoxDecoration(
               gradient: LinearGradient(
@@ -147,7 +147,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
             padding: const EdgeInsets.all(10.0),
             child: const Text(
               'NEXT2',
-              style: TextStyle(fontSize: 20)
+              
             ),
           ),
         ),//fin raised
