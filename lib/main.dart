@@ -138,10 +138,11 @@ class _IngresoSistemaState extends State<IngresoSistema> {
               ],
             ),
           ),
-        ),
-                          child: Text(
+          child: Text(
                             'NEXT2',
                           ),
+        ),
+                          
                           onPressed: () {
                             setState(() {
                               isAcceso = true;
