@@ -164,6 +164,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   children: <Widget>[
                     Text('YAY, Estoy dentro!'),
                     RaisedButton(
+                      elevation: 20.0,
                     onPressed: () {
                         setState(() {
                           isAcceso = false;
@@ -174,17 +175,17 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   child: Container(
                     decoration: BoxDecoration(
                     gradient: LinearGradient(
-                    colors: <Color>[
-                      Color(0xFF0D47A1),
-                      Color(0xFF1976D2),
-                      Color(0xFF42A5F5),
+                    colors:[
+                      Colors.pink[800],
+                      Colors.pink[400],
+                      Colors.pink[800],
                 ],
               ),
             ),
             padding: const EdgeInsets.all(10.0),
-            elevation: 20.0,
+            
             child: const Text(
-              'Logout',
+              'Salir',
               style: TextStyle(fontSize: 20)
             ),
           ),
