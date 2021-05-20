@@ -135,7 +135,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
           textColor: Colors.white,
           padding: const EdgeInsets.all(0.0),
           child: Container(
-            decoration: const BoxDecoration(
+            decoration: BoxDecoration(
               gradient: LinearGradient(
                 colors: [
                   Colors.pink[800],
