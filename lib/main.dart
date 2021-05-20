@@ -133,7 +133,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                             });
                           },
           textColor: Colors.white,
-          padding: const EdgeInsets.all(0.0),
+          
           child: Container(
             decoration: const BoxDecoration(
               gradient: LinearGradient(
