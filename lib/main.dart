@@ -185,7 +185,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
             padding: const EdgeInsets.all(10.0),
             
             child: const Text(
-              'Salir',
+              'Cerrar Sesion',
               style: TextStyle(fontSize: 20)
             ),
           ),
