@@ -144,10 +144,10 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 ],
               ),
             ),
-            padding: const EdgeInsets.all(12.0),
+            padding: const EdgeInsets.all(10.0),
             child: const Text(
               'NEXT2',
-              
+              style: TextStyle(fontSize: 20)
             ),
           ),
         ),//fin raised
