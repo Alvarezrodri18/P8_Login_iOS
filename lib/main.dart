@@ -139,9 +139,8 @@ class _IngresoSistemaState extends State<IngresoSistema> {
               gradient: LinearGradient(
                 colors: [
                   Colors.pink[800],
-                Colors.pink[400],
-                Colors.pink[400],
-                Colors.pink[800],
+                  Colors.pink[400],
+                  Colors.pink[800],
                 ],
               ),
             ),
