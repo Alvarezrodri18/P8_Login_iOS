@@ -139,6 +139,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
               ],
             ),
           ),
+          padding: const EdgeInsets.only(top: 18.0),
           child: Text(
                             'NEXT2',
                           ),
