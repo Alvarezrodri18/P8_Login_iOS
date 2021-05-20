@@ -74,7 +74,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
         flexibleSpace: Container(
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [Colors.red, Colors.pink, Colors.white],
+                  colors: [ Colors.pink,Colors.red, Colors.white],
                 ),
               ),
             ),
