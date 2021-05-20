@@ -105,8 +105,8 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       labelText: 'Username',
                     ),
                   ),
-                ] //fin <Widget>[]
-                    ) //Fin columna
+                ], //fin <Widget>[]
+                    ), //Fin columna
               } //if verdadero
             else
               {} //if false
